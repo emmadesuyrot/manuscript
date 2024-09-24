@@ -4,7 +4,7 @@ body {
 	font-family: "Inter", sans-serif;
 	font-weight: 600;
 	font-size: 20px;
-	padding: 24px;
+	padding: 10px 50px 20px;
 }
 
 h1{
@@ -24,13 +24,8 @@ p {
 	line-height: 150%;
 }
 
-.lighter{ /
+span {
 	font-weight: 300;
-}
-
-.normal {
-	font-weight: 300;
-	color: gray;
 }
 
 footer { 
