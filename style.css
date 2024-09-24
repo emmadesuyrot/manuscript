@@ -5,7 +5,6 @@ body {
 	font-weight: 600;
 	font-size: 20px;
 	padding: 10px 50px 20px;
-	text-align: justify;
 }
 
 h1{
@@ -28,6 +27,7 @@ h2{
 p {
 	max-width: 70ch;
 	line-height: 150%;
+	text-align: justify;
 }
 
 span {
