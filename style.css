@@ -4,7 +4,7 @@ body {
 	font-family: "Inter", sans-serif;
 	font-weight: 600;
 	font-size: 20px;
-	padding: 10px 60px 30px;
+	padding: 10px 50px 20px;
 }
 
 h1{
@@ -37,7 +37,7 @@ h2{
 }
 
 p {
-	max-width: 70ch;
+	max-width: 54ch;
 	line-height: 150%;
 	margin-bottom: 20px;
 	text-align: justify;
@@ -46,20 +46,29 @@ p {
 div:has(blockquote){
 	color: rgb(0, 0, 0);
 }
+blockquote p::before {
+	content: '\201C';
+  }
+  
+  blockquote p::after {
+	content: '\201D';
+  }
 
 /*page number*/
 .small{
-	font-weight: 600;
+	font-weight: 300;
 	font-size: 18px;
 	margin-top: 0.1%;
-	color: rgb(167, 167, 167);
+	color: rgb(120, 119, 119);
 }
 
+/*font weight light in <p>*/
 span {
-	font-weight: 300;
+	font-weight: 350;
 }
 
 footer { 
 	font-weight: 300;
-	color: rgb(167, 167, 167);
+	color: rgb(120, 119, 119);
+	margin-top: 10%;
 }
