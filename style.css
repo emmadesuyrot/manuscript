@@ -54,11 +54,11 @@ div:has(blockquote){
 /* blockquote quotation */
 blockquote p::before {
 	content: '\201C';
-  }
-  
+}
+
   blockquote p::after {
 	content: '\201D';
-  }
+}
 
 /*page number*/
 .small{
