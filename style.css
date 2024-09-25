@@ -56,7 +56,7 @@ blockquote p::before {
 	content: '\201C';
 }
 
-  blockquote p::after {
+blockquote p::after {
 	content: '\201D';
 }
 
