@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+body {
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+}
+
 h1{
 	font-size: 200px;
 	font-weight: 900;
@@ -14,13 +20,6 @@ hgroup {
 	padding: 2em
 }
 
-.author-cite {
-	font-size: 43px;
-	font-weight: 800;
-	color: rgb(255, 0, 0);
-	line-height: 100%;
-}
-
 a {
 	color: white;
 	text-decoration: none;
@@ -29,13 +28,6 @@ a {
 a[href^="#"]{
 	color: white;
 	text-decoration: none;
-}
-
-.quote-cite {
-	font-size: 10;
-	font-style: italic;
-	color: rgb(0, 0, 0);
-	font-weight: 400;
 }
 
 blockquote {
@@ -53,23 +45,6 @@ blockquote p::before {
 
 blockquote p::after {
 	content: '\201D';
-}
-
-body {
-	font-family: "Inter", sans-serif;
-	font-weight: 600;
-	font-size: 20px;
-}
-
-.left-column{
-	text-align: left;
-	padding-left: 10%;
-	padding-right: 90%;
-}
-
-.right-column {
-	text-align: left;
-	padding-left: 40%;
 }
 
 /*linked "Reading" to PDF*/
@@ -99,12 +74,6 @@ p {
 	text-align: justify;
 }
 
-.page{
-	font-weight: 300;
-	font-size: 18px;
-	color: rgb(120, 119, 119);
-}
-
 /*font weight light in <p>*/
 span {
 	font-weight: 350;
@@ -119,4 +88,35 @@ footer {
 	padding-left: 40%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+}
+
+.page{
+	font-weight: 300;
+	font-size: 18px;
+	color: rgb(120, 119, 119);
+}
+
+.left-column{
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 90%;
+}
+
+.right-column {
+	text-align: left;
+	padding-left: 40%;
+}
+
+.author-cite {
+	font-size: 43px;
+	font-weight: 800;
+	color: rgb(255, 0, 0);
+	line-height: 100%;
+}
+
+.quote-cite {
+	font-size: 10;
+	font-style: italic;
+	color: rgb(0, 0, 0);
+	font-weight: 400;
 }
