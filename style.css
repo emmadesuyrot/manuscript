@@ -2,32 +2,42 @@
 
 body {
 	font-family: "Inter", sans-serif;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
+	margin: 0px;
 }
 
 h1{
 	font-size: 200px;
 	font-weight: 900;
 	color: rgb(255, 255, 255);
+	margin: 0%;
 	margin-bottom: 1%;
 	max-width: 100ch;
 	line-height: 100%;
+	text-align: left;
 }
 
-hgroup {
-	background-color: black;
-	padding: 2em
+h2{
+	color: rgb(255, 255, 255);
+	font-weight: 500;
+	font-size: 30px;
+	max-width: 35ch;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	margin: 0%
 }
 
 a {
-	color: white;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
+	font-size: 20px;
 }
 
 a[href^="#"]{
-	color: white;
+	color: rgb(255, 0, 0);
 	text-decoration: none;
+	font-size: 50px;
 }
 
 blockquote {
@@ -47,24 +57,13 @@ blockquote p::after {
 	content: '\201D';
 }
 
-/*linked "Reading" to PDF*/
-a[href*='https://readings.design/PDF/Kalman,%20Tibor%20and%20Karrie%20Jacobs%20%E2%80%94%20We']
-{
-	text-decoration: underline;
-} /*how to open link to another tab?*/
-
-/* hover color over "Reading" */
-a:hover { color: rgb(255, 0, 0); }
-
-h2{
-	color: rgb(255, 255, 255);
+h3{
+	color: rgb(0, 0, 0);
 	font-weight: 800;
 	font-size: 40px;
 	margin-top: 8%;
-	margin-bottom: 4%;
-	background-color: black;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	margin-bottom: 2%;
+	margin-left: 80px;
 }
 
 p {
@@ -76,35 +75,35 @@ p {
 
 /*font weight light in <p>*/
 span {
-	font-weight: 350;
+	color: rgb(255, 0, 0);
 }
 
 footer { 
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 10;
-	font-style: italic;
 	color: rgb(255, 255, 255);
 	background-color: black;
-	padding-left: 40%;
 	padding-top: 1em;
 	padding-bottom: 1em;
+	margin-top: 8%;
+	padding: 4em
 }
 
 .page{
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 18px;
 	color: rgb(120, 119, 119);
 }
 
-.left-column{
-	text-align: left;
-	padding-left: 10%;
-	padding-right: 90%;
+.center-content {
+	background-color: black;
+	padding: 4em
 }
 
-.right-column {
-	text-align: left;
-	padding-left: 40%;
+.h3-body {
+	align-items: center;
+	text-align: center;
+	margin-left: 80px;
 }
 
 .author-cite {
@@ -112,11 +111,6 @@ footer {
 	font-weight: 800;
 	color: rgb(255, 0, 0);
 	line-height: 100%;
+	text-align: left;
 }
 
-.quote-cite {
-	font-size: 10;
-	font-style: italic;
-	color: rgb(0, 0, 0);
-	font-weight: 400;
-}
