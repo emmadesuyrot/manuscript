@@ -63,15 +63,17 @@ section.h3-body p:nth-of-type(13) {
 }
 
 section.h3-body p:nth-of-type(14) {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
+	margin-right: 10%;
 }
 
 section.h3-body p:nth-of-type(15) {
-	font-size: 1.2rem;
+	font-size: 1.8rem;
+	margin-right: 10%;
 }
 
 section.h3-body p:nth-of-type(16) {
-	font-size: 1.2rem;
+	font-size: 3rem;
 	font-weight: 700;
 }
 
@@ -109,18 +111,20 @@ footer {
 	padding: 4em
 }
 
-.highlight-green {
+.highlight-good {
 	font-weight: 600;
+	font-size: 1.8rem;
 }
 
-.highlight-red {
+.highlight-bad {
 	font-weight: 600;
+	font-size: 1.8rem;
 }
 
 .page{
 	font-weight: 400;
 	font-size: 18px;
-	color: rgb(0, 0, 0);
+	color: rgb(159, 159, 159);
 }
 
 .center-content {

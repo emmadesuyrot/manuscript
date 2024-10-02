@@ -1,0 +1,1 @@
+For the Fall 2024 manuscript project for Typography and Interaction 1, Emma de Suyrot explored type selection, hierarchy, as well as the use of semantic HTML and CSS basics.
