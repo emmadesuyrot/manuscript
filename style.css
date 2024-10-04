@@ -49,13 +49,9 @@ blockquote {
 }
 
 /* blockquote quotation */
-blockquote p::before {
-	content: '\201C';
-}
-
-/* blockquote quotation */
+blockquote p::before,
 blockquote p::after {
-	content: '\201D';
+	content: '\201C';
 }
 
 /* <p>What we come to think of as Good design</p> */
