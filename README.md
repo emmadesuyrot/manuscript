@@ -1,1 +1,1 @@
-For the Fall 2024 manuscript project for Typography and Interaction 1, Emma de Suyrot explored type selection, hierarchy, as well as the use of semantic HTML and CSS basics.
+For the Fall 2024 manuscript project for Typography and Interaction 1, Emma de Suyrot explored type selection, hierarchy, as well as the use of semantic HTML and CSS basics. Developed a website inspired by Tibor Kalman and Karrie Jacobs, We're Here To Be Bad, styled to reflect the tone and attitude of their article. 
